@@ -12,3 +12,7 @@ spring:
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+slack:
+  channel:
+    monitor: '#spring을-이용한-slack-message-app-개발'

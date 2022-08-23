@@ -28,7 +28,7 @@ dependencies {
 	implementation("com.slack.api:bolt:1.24.0")
 	implementation("com.slack.api:bolt-servlet:1.24.0")
 	implementation("com.slack.api:bolt-jetty:1.24.0")
-	implementation("org.slf4j:slf4j-simple:1.7.36")
+//	implementation("org.slf4j:slf4j-simple:1.7.36")
 }
 
 tasks.withType<KotlinCompile> {
